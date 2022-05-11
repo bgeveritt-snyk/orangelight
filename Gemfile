@@ -3,11 +3,11 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0', '>= 6.0.4.7'
+gem 'rails', '~> 6.0', '>= 6.0.4.8'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Blacklight
-gem 'blacklight', '~> 7.0'
+gem 'blacklight', '~> 7.23', '>= 7.23.0.1'
 
 gem 'rsolr'
 
@@ -16,14 +16,14 @@ gem 'blacklight_range_limit'
 # advanced search functionality
 gem 'blacklight_advanced_search', git: 'https://github.com/projectblacklight/blacklight_advanced_search', branch: 'master'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 6.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 # Modernizr.js library
 gem 'modernizr-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.2.0'
+gem 'coffee-rails', '~> 4.2.2'
 
 # Use jquery as the JavaScript library
 # jest tests use yarn to get jquery; if upgrading here keep that version in sync
@@ -34,7 +34,7 @@ gem 'jquery-rails'
 gem 'high_voltage', '~> 3.0.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', '~> 2.11', '>= 2.11.5'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 # gem 'spring', group: :development
@@ -46,8 +46,8 @@ gem 'blacklight-marc', git: 'https://github.com/projectblacklight/blacklight-mar
 # Capistrano
 gem 'capistrano', '~> 3.4.0'
 gem 'capistrano-passenger'
-gem 'devise', '>= 4.6.0'
-gem 'devise-guests', '~> 0.5'
+gem 'devise', '>= 4.8.1'
+gem 'devise-guests', '~> 0.8', '>= 0.8.1'
 gem 'faraday', '~> 0.17'
 gem 'faraday-cookie_jar'
 gem 'global'
@@ -55,7 +55,7 @@ gem 'omniauth-cas'
 gem 'yajl-ruby', '>= 1.3.1', require: 'yajl'
 
 gem 'babel-transpiler'
-gem 'bootstrap', '~> 4.6'
+gem 'bootstrap', '~> 4.6', '>= 4.6.1'
 gem 'bootstrap-select-rails'
 gem 'capybara'
 gem 'ddtrace'
