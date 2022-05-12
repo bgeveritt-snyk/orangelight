@@ -125,5 +125,5 @@ gem 'simple_form'
 gem 'yaml_db', '~> 0.7.0'
 
 source "https://rubygems.pkg.github.com/bgeveritt-snyk" do
-  gem "commonmarker", "0.22.0"
+  gem "commonmarker", "0.23.4"
 end
