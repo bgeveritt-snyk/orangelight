@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0', '>= 6.0.4.7'
 # Use postgresql as the database for Active Record
-gem 'pg'
+#gem 'pg'
 # Blacklight
 gem 'blacklight', '~> 7.0'
 
@@ -123,3 +123,7 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'net-ldap'
 gem 'simple_form'
 gem 'yaml_db', '~> 0.7.0'
+
+source "https://rubygems.pkg.github.com/bgeveritt-snyk" do
+  gem "commonmarker", "0.22.0"
+end
