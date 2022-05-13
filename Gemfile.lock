@@ -9,6 +9,7 @@ GIT
 
 GEM
   remote: https://rubygems.org/
+  remote: https://rubygems.pkg.github.com/bgeveritt-snyk/
   specs:
     actioncable (6.1.6)
       actionpack (= 6.1.6)
@@ -79,6 +80,7 @@ GEM
       rails (>= 5.1, < 7.1)
       view_component (~> 2.43)
     builder (3.2.4)
+    commonmarker (0.23.4)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     deprecation (1.1.0)
@@ -111,9 +113,11 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.0)
     minitest (5.15.0)
     nio4r (2.5.8)
-    nokogiri (1.13.6-arm64-darwin)
+    nokogiri (1.13.6)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     nokogiri (1.13.6-x86_64-darwin)
       racc (~> 1.4)
@@ -168,17 +172,13 @@ GEM
     websocket-extensions (0.1.5)
     zeitwerk (2.5.4)
 
-GEM
-  remote: https://rubygems.pkg.github.com/bgeveritt-snyk/
-  specs:
-    commonmarker (0.22.0)
-
 PLATFORMS
+  ruby
   universal-darwin-21
 
 DEPENDENCIES
   blacklight_advanced_search!
-  commonmarker (= 0.22.0)!
+  commonmarker (= 0.23.4)!
 
 BUNDLED WITH
-   2.3.13
+   2.1.4
