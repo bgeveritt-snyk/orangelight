@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/bgeveritt-snyk/blacklight_advanced_search
+  remote: https://github.com/bgeveritt-snyk/blacklight_advanced_search.git
   revision: 9c04e3770c137d1958f43aa260bc302ab5cfb63b
   branch: master
   specs:
@@ -161,7 +161,7 @@ GEM
     thor (1.2.1)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    view_component (2.54.1)
+    view_component (2.55.0)
       activesupport (>= 5.0.0, < 8.0)
       method_source (~> 1.0)
     websocket-driver (0.7.5)
