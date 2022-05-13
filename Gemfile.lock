@@ -79,6 +79,7 @@ GEM
       rails (>= 5.1, < 7.1)
       view_component (~> 2.43)
     builder (3.2.4)
+    commonmarker (0.22.0)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     deprecation (1.1.0)
@@ -173,6 +174,7 @@ PLATFORMS
 
 DEPENDENCIES
   blacklight_advanced_search!
+  commonmarker (= 0.22.0)
 
 BUNDLED WITH
    2.3.13
