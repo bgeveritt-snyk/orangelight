@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/projectblacklight/blacklight_advanced_search
+  remote: https://github.com/bgeveritt-snyk/blacklight_advanced_search
   revision: 9c04e3770c137d1958f43aa260bc302ab5cfb63b
   branch: master
   specs:
@@ -168,17 +168,11 @@ GEM
     websocket-extensions (0.1.5)
     zeitwerk (2.5.4)
 
-GEM
-  remote: https://rubygems.pkg.github.com/bgeveritt-snyk/
-  specs:
-    commonmarker (0.22.0)
-
 PLATFORMS
   universal-darwin-21
 
 DEPENDENCIES
   blacklight_advanced_search!
-  commonmarker (= 0.22.0)!
 
 BUNDLED WITH
    2.3.13
